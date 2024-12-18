@@ -1,8 +1,8 @@
-import { Chat } from "@/app/product/chat/chat";
 import { UserMenu } from "@/components/user-menu";
 import { api } from "@/convex/_generated/api";
 import { convexAuthNextjsToken } from "@convex-dev/auth/nextjs/server";
 import { fetchQuery } from "convex/nextjs";
+import { Chat } from "./chat/chat";
 
 export default async function ProductPage() {
   const viewer = await fetchQuery(
