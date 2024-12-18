@@ -1,6 +1,6 @@
 "use client";
 
-import { SignInMethodDivider } from "@/components/SignInMethodDivider";
+import { SignInMethodDivider } from "@/components/signin-method-divider";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Toaster } from "@/components/ui/toaster";

@@ -9,8 +9,6 @@ export function MessageList({
 }) {
   const messageListRef = useRef<HTMLOListElement>(null);
 
-  // Scrolls the list down when new messages
-  // are received or sent.
   useEffect(() => {
     if (messageListRef.current) {
       messageListRef.current.scrollTo({

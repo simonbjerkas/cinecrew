@@ -1,5 +1,5 @@
-import { GetStarted } from "@/app/(splash)/GetStarted/GetStarted";
+const Home = () => {
+  return <div>Hello</div>;
+};
 
-export default function HomePage() {
-  return <GetStarted />;
-}
+export default Home;
